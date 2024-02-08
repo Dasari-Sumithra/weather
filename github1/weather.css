@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Desktop-Picture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Ensure full viewport height */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+#searchInput {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+
+.forecast-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}
+
+.forecast-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-card h2 {
+    margin-bottom: 10px;
+}
+
+.forecast-card p {
+    margin-bottom: 5px;
+}
